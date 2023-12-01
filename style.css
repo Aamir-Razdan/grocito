@@ -24,7 +24,7 @@ h1{
 h2{
     line-height:3rem;
     font-weight:600;
-    font-size:3.4rem;
+    font-size:2rem;
 }
 p{
     margin:0;
@@ -51,10 +51,11 @@ p{
     background:var(--dark-primary);
 }
 .hero-img{
-    width: 40rem;
+    width: 50rem;
     border-radius: 1rem;
     position: relative;
     top:100px;   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
 }
 .tagline{
     width:40%;
@@ -76,29 +77,33 @@ p{
 
 /* company */
 
-.company{
+.company-section{
     position:relative;
-    top:150px;
-    width:100%;
+    top:130px;
     height:90px;
     margin:auto;
     background:var(--dark-primary);
-    align-items: center;
+   
 }
 .company-img{
     display: flex;
-    padding: 22.5px 0;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
+    justify-items: center;
+}
+.company-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* features us */
 
-.feature-us{
-    position: relative;
-    top:220px;
-}
+
 .feature-h1{
+    position: relative;
+    top:15rem;
+    bottom:10rem;
     font-size:2rem;
     width:60%;
     margin:auto;
@@ -106,3 +111,165 @@ p{
     text-align: center;
     font-weight:700;
 }
+.feature-section{
+    position: relative;
+    top:15rem;
+    background:var(--main-fontwhite)
+}
+.container-feature1{
+    width:70%;
+    margin:auto;
+}
+
+.feature1-img{
+    width:30rem;
+}
+
+
+/* we different section */
+.we-different-section{
+    padding-top:40px;
+    padding-bottom:80px;
+    position:relative;
+    top:220px;
+    background-color:var(--dark-primary);
+  
+}
+
+.we-different-section-cards{
+    margin-top:50px;
+       
+}
+.we-different-section-card1,.we-different-section-card2,.we-different-section-card3{
+    background:var(--main-fontwhite);
+    
+}
+
+/* footer */
+
+.contact-details1{
+    background:var(--main-fontwhite);
+    border-radius:0 0 50px 50px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.contact-detail-text{
+    text-align: center;
+    margin:40px 0;
+    font-weight:700;
+}
+.main-footer-section{
+    position:relative;
+    top:200px;
+    background:var(--dark-primary);
+    margin-top:80px;
+}
+.contact-img{
+    width:10rem;
+    height:10rem;
+}
+
+
+/* customer review */
+
+#customer-review{
+    position: relative;
+    top:300px;
+    padding:40px 0;
+    padding-bottom:100px;
+}
+
+
+
+
+@media screen and (max-width: 998px) {
+    h1{
+        font-size:1.2rem;
+    }
+    .tagline{
+        width:70%;
+        margin:auto;
+        color:var(--main-fontwhite);
+        font-weight:700;
+    }
+    .para-tagline{
+        width:80%;
+        margin:auto;
+        color:var(--para-color);
+        font-size:0.7rem;
+    }
+    .hero-img{
+        width: 50rem;
+        border-radius: 1rem;
+        position: relative;
+        top:30px;   
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    }
+
+
+    /* company section  */
+    
+    .company-section{
+        position:relative;
+        top:50px;
+        height:150px;
+        margin:auto;
+        background:var(--dark-primary);
+    
+    }
+    .company-img{
+        width:15rem;
+    }
+    .feature-h1{
+        position: relative;
+        top:5rem;
+        bottom:0rem;
+        font-size:1rem;
+        width:80%;
+        margin:auto;
+        align-items: center;
+        text-align: center;
+        font-weight:700;
+    }
+    .feature-section{
+        position: relative;
+        top:5rem;
+        background:var(--main-fontwhite)
+    }
+    .container-feature1{
+        width:70%;
+        margin:auto;
+    }
+    
+    .feature1-img{
+        width:30rem;
+    }
+    .text-feature{
+        align-items: center;
+        text-align:center;
+        margin:auto;
+    }
+    .we-different-section-title{
+        font-size:1.5rem;
+        margin-bottom: 2px;
+        padding:2px;
+    }
+    
+    #customer-review{
+        position: relative;
+        top:200px;font-size: 1.3rem;
+        padding:40px 0;
+        padding-bottom:100px;
+    }
+
+}
+
+/*contact section end */
+
+/*footer styling */
+.main-footer-section{
+ 
+}
+
+
+
+
