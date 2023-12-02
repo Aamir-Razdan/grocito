@@ -99,7 +99,10 @@ p{
 
 /* features us */
 
-
+.featur-display{
+    display:flex;
+    justify-content: space-between;
+}
 .feature-h1{
     position: relative;
     top:15rem;
